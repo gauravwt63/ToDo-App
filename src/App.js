@@ -37,7 +37,7 @@ const App = () => {
         <input type="text" placeholder="ADD ITEMS"
           value={inputList}
           onChange={itemEvent} />
-        <button onClick={listOfItems}> + </button>
+        <button onClick={listOfItems} disabled={inputList === ""}> + </button>
 
 
         <ol>
